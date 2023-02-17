@@ -1,5 +1,5 @@
 [submodule "primitive_data"]
 	path = primitive_data
-	url = git@github.com:db-tu-dresden/TVLPrimitiveData.git
-	branch = main
+	url = git@github.com:cmrschwarz/TVLPrimitiveData.git
+	branch = repair
 	

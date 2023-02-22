@@ -41,9 +41,3 @@ execute_process(
 # run the CMakeLists.txt created by the generator
 add_subdirectory("${GENERATOR_OUTPUT_PATH}")
 
-# disable -W-attributes
-include(CheckCXXCompilerFlag)
-check_cxx_compiler_flag(-Wno-attributes HAVE_W_NO_ATTRIBUTES)
-if (HAVE_W_NO_ATTRIBUTES)
-    target_compile_options(tvl INTERFACE -Wno-attributes)
-endif()
